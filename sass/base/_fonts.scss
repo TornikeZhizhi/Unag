@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'BPG WEB 001 Caps';
+    src: url('../fonts/bpg-web-001-caps-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-web-001-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-web-001-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-web-001-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-web-001-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-web-001-caps-webfont.svg#bpg_web_001_capsregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('../fonts/bpg-arial-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-arial-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-arial-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-arial-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-arial-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-arial-webfont.svg#bpg_arialregular') format('svg'); /* Legacy iOS */
+}
+
+$caps: 'BPG WEB 001 Caps';
+$arial: 'BPG Arial';
+
+*{
+    font-family: 'BPG WEB 001 Caps'; 
+}
+
+/*$en-title: $mark-bold;
+$en-text : $mark;
+
+$ge-title: $mark-bold;
+$ge-text : $mark;
+
+$default-title: $ge-title;
+$default-text: $ge-text;
+
+
+
+
+
+@mixin family($name) {
+    @if($name == "title"){
+        font-family: $default-title, sans-serif;
+
+        &:lang(en){
+            font-family: $en-title, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-title, sans-serif;
+        }
+    }
+    @if($name == "text"){
+        font-family: $default-text, sans-serif;
+
+        &:lang(en){
+            font-family: $en-text, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-text, sans-serif;
+        }
+    }
+  
+}
+*/
+
+
+
+
+
