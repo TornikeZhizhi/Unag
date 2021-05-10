@@ -84,7 +84,23 @@ $default-text: $ge-text;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative; }
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .main_banner .main_banner_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .main_banner .main_banner_info h1 {
+      color: #fff;
+      font-size: 42px; }
+    .main_banner .main_banner_info .banner_links {
+      margin-top: 20px;
+      display: flex; }
+      .main_banner .main_banner_info .banner_links .common_button.blue {
+        margin-right: 10px; }
 
 .header {
   position: absolute;
@@ -126,5 +142,15 @@ $default-text: $ge-text;
         justify-content: center; }
         .header .header_form .auth_box a span {
           margin-left: 5px; }
+
+.common_button a {
+  color: #fff;
+  border-radius: 10px; }
+.common_button.transparent a {
+  padding: 11px 12px 6px 12px;
+  border: 1px solid #fff; }
+.common_button.blue a {
+  padding: 12px 12px 8px 12px;
+  background-color: #57A3C2; }
 
 /*# sourceMappingURL=main.css.map */
