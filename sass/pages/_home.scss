@@ -32,6 +32,136 @@
 			.common_button.blue {
 				margin-right: 10px;
 			}
+
+			
 		}
 	}
 }
+
+
+.common_text_jumbotron {
+
+	padding: 55px 20px 120px 20px;
+
+	.jumbotron_wrapper {
+
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+	.jumbotron_title {
+		text-align: center;
+		margin-bottom:15px;
+
+		h2 {
+			font-size: 32px;
+		}
+	}
+	* {
+		color: $textcolor;
+	}
+	.jumbotron_text {
+		* {
+			font-family: $arial;
+		}
+	}
+
+	&.blue_jumbotron {
+		background-color: $blue;
+
+		* {
+			color: #fff;
+		}
+	}
+
+	&.yellow_jumbotron {
+		background-color: $yellow;
+		padding: 100px 20px 100px 20px;
+			h2 {
+				color: $black;
+			}
+		* {
+			color: #fff;
+		}
+
+		.jumbotron_wrapper {
+			max-width: 530px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+}
+
+
+.course_name_wrapper {
+
+	padding: 50px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	&>div {
+		flex:0 0 50%;
+		max-width: 50%;
+	}
+
+	.course_name_img {
+		img {
+		width: 100%;
+    object-fit: cover;
+    height: 560px;
+
+		}
+	}
+	.course_name_info_wrapper {
+		padding: 30px 35px 50px 35px;
+		background-color: #fff;
+	}
+
+	.favourite_course {
+		* {
+			color: #2980B9;
+		}
+	}
+
+	.course_name {
+		margin-bottom: 20px;
+		* {
+
+			font-size: 28px;
+			color: $textcolor;
+		}
+	}
+
+	.course_description {
+		font-family: $arial;
+			color: $textcolor;
+		* {
+
+			font-family: $arial;
+			color: $textcolor;
+		}
+	}
+
+	
+}
+
+.course_link {
+		width: 100%;
+		text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+		* {
+			color: $textcolor;
+		}
+
+		a {
+			display: flex;
+			
+			svg {
+				margin-left: 10px;
+			}
+		}
+	}
